@@ -3,8 +3,8 @@
 }
 body {
 margin: 0;
-background-color: hsl(200, 100%, 85%);
-color: hsl(200, 100%, 10%);
+background-color: hsl(200, 100%, 75%);
+color: hsl(200, 100%, 5%);
 font-family: sans-serif;
 }
 .blurred {
@@ -26,13 +26,13 @@ font-family: sans-serif;
 }
 
 .weather-icon {
-  width: 40px;
-  height: 40px;
+  width: 75px;
+  height: 75px;
   object-fit: contain;
 }
 .weather-icon.large{
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
 }
 .header-current-temp{
   font-size: 2rem;
@@ -87,10 +87,10 @@ margin-top: 0.5rem;
   border-spacing: 0;
 }
 .hour-row {
-  background-color: hsl(200, 80%, 80%);
+  background-color: hsl(200, 70%, 55%);
 }
 .hour-row:nth-child(2n) {
-  background-color: hsl(200, 80%, 70%);
+  background-color: hsl(200, 80%, 65%);
 }
 .hour-row > td {
   padding: 0.25rem 0.5rem;
